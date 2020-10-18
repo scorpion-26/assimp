@@ -7,12 +7,16 @@ build
 # build artefacts
 *.o
 *.a
+Binaries/
+Intermediates/
 
 # Visual Studio
 *.sln
 *.ncb
 *.vcproj
 *.vcxproj.user
+*.vcxproj
+*.vcxproj.filters
 *.VC.db
 *.VC.db-shm
 *.VC.db-wal
@@ -27,12 +31,12 @@ lib/
 CMakeLists.txt.user
 
 # Generated
-assimp.pc
-assimp.aps
-revision.h
-contrib/zlib/zconf.h
-contrib/zlib/zlib.pc
-include/assimp/config.h
+#assimp.pc
+#assimp.aps
+#revision.h
+#contrib/zlib/zconf.h
+#contrib/zlib/zlib.pc
+#include/assimp/config.h
 unit.vcxproj.user
 
 # CMake
