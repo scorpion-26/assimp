@@ -5,8 +5,8 @@ language "C++"
 cppdialect "C++17"
 staticruntime "on"
 
-targetdir ("outputdir")
-objdir ("objectdir")
+targetdir (outputdir)
+objdir (objectdir)
 
 files{
 
