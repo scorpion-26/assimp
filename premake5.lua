@@ -5,8 +5,8 @@ language "C++"
 cppdialect "C++17"
 staticruntime "on"
 
-targetdir ("%{wks.location}/Tools/Binaries/%{cfg.buildcfg}_%{cfg.architecture}")
-objdir ("%{wks.location}/Tools/Intermediates/%{cfg.buildcfg}_%{cfg.architecture}")
+targetdir ("outputdir")
+objdir ("objectdir")
 
 files{
 
